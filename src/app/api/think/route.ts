@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const API_KEY = "***REMOVED***";
+const API_KEY = process.env.APIYI_API_KEY;
 const API_BASE = "https://api.apiyi.com/v1";
 const THINKING_MODEL = "gemini-3.1-flash-preview";
 
